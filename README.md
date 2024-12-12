@@ -2,7 +2,7 @@
 
 On first startup:
 
-`$ sudo docker run -it -p 8182:8182 --name janusgraph-container -v ~:/opt/janusgraph/exports --name janusgraph-container janusgraph/janusgraph`
+`$ sudo docker run -it -p 8182:8182 --name janusgraph-container -v /home/misunderstandings/Desktop/max/shared_understandings/exports:/opt/janusgraph/exports --name janusgraph-container janusgraph/janusgraph`
 
 And then in another window:
 
