@@ -1,0 +1,5 @@
+Install docker using instructions at: https://docs.docker.com/engine/install/ubuntu/
+
+
+Run janusgraph image as a docker container (dont use docker-desktop, it seemed to break thngs):
+    $docker run -it -p 8182:8182 --name hacktalking_graph janusgraph/janusgraph:latest
